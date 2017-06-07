@@ -54,3 +54,12 @@ h1{
 	color: #EF9A9A;
 }
 
+/*Diseño footer*/
+.bye{
+	display: block;
+	text-align: center;
+	font-family: 'Prompt', sans-serif;
+}
+.bye p{
+	margin-top: 25px;
+}
