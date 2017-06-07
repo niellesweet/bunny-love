@@ -1,4 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body{
+	background-color: #B2EBF2;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -10,23 +16,14 @@ header{
 	width: 100%;
 	display: inline-block;
 	height: 80px;
+	background-color: rgba(33, 150, 243,1.0);
 }
-.grid, .grid-pad{
-	margin: 0;
-	padding: 0;
-	height: 80px;
-	max-width: 100%;
-}
-.col-1-1{
-	background-color: #2980b9;
-	color: white;
-	height: inherit;
-	width: 100%
+header .content {
+	padding: 0 1em;
 }
 .content ul{
 	list-style: none;
 	margin-top: 25px;
-	margin-right: 142px; 
 	float: right;
 }
 .menu-header{
@@ -53,13 +50,85 @@ h1{
 #love-logo{
 	color: #EF9A9A;
 }
+/*Diseño Section Soft Bunny*/
+#caja-header{
+	background-image: url('../../img/img-1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	text-align: center;
+}
+#caja-header .content{
+	margin: 5em 0;
+	padding: 5em;
+	background-color: rgba(100, 181, 246, .75);
+	text-align: center;
+}
+h2{
+	font-size: 4rem;
+}
 
+h2,h4{
+	font-family: 'Baloo Paaji', cursive;
+	color: #EF9A9A;
+}
+h3{
+	font-family: 'Prompt', sans-serif;
+	font-size: 2rem;
+}
+.grid h4{
+	font-size: 1.5rem;
+	text-align: center;
+}
+.grid p{
+	font-family: 'Prompt', sans-serif;
+	font-size: 1em;
+	max-width: 660px;
+	margin: 2em auto 1em;
+	font-size: 120%;
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+}
+/*Diseño historias*/
+img {
+	max-width: 100%;
+	height: auto;
+	display:  block;
+}
+#historias {
+    padding: 1em;
+    background: #FFEFEF;
+}
+#historias .historia {
+    background-color: rgba(33, 150, 243,1.0);
+}
+#historias .historia .caja-conejito{
+	overflow: hidden;
+	height: 150px;
+}
+#historias .historia .info{
+	min-height: 355px;
+}
 /*Diseño footer*/
+footer{
+	height: 80px;
+	padding: 10px;
+	color: white;
+}
+footer .page-end{
+	background-image: url(../../img/bunny-head.png);
+	background-repeat-y: no-repeat;
+	background-size: contain;
+	height: 80px;
+}
 .bye{
+
+	background-color: rgba(33, 150, 243,1.0);
+	border-top: 3px solid #EF9A9A;
 	display: block;
 	text-align: center;
 	font-family: 'Prompt', sans-serif;
 }
-.bye p{
-	margin-top: 25px;
-}
+
